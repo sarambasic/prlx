@@ -1,0 +1,32 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+}
+    .prlx {
+        position: relative;
+        overflow: hidden;
+        background-image: url(../img/aaa.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .prlx .background-prlx {
+        padding-bottom: 56.25%;
+        background-image: url(../img/dice1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .prlx .text-wrapper {
+        padding-top: 50px;
+        position: absolute;
+        right: 0;
+        left: 0;
+    }
+    .poster-photo-wrapper {
+        position: absolute; right: 0; left: 0; bottom: 0;
+    }
+    .poster-photo-wrapper .poster-photo {
+        max-width: 100%;
+    }
